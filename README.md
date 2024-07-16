@@ -18,6 +18,6 @@ csv = CSV("expense.txt")
 ```python
 csv = CSV("expense.csv")
 csv.initializeCsv(["date", "amount", "description"])
-csv.addEntry("10-02-2024", 55,)
+csv.addEntry("10-02-2024", 55)
 # throws error: The number of columns and the data does not match
 ```
